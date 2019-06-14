@@ -1,3 +1,10 @@
+<span align="center">
+</span>
+<p align="center">
+  <a href="https://github.com/ivoilic/gatsby-contentful-gitlab-starter">
+    <img width="150" src="./static/logo.svg" alt="gatsby-contentful-gitlab-starter logo"/>
+  </a>
+</p>
 <h1 align="center">Gatsby + Contentful + GitLab</h1>
 Roll out a static site quickly and cheaply.
 
