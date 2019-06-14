@@ -1,0 +1,39 @@
+{
+  "name": "gatsby-contentful-gitlab-starter",
+  "private": false,
+  "description": "A static site generator based on Gatsby using the Contentful CMS and GitLab Pages for Hosting",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop -H 0.0.0.0",
+    "build": "gatsby build",
+    "start": "gatsby serve"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "gatsby": "^2.9.2",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-sass": "^2.0.11",
+    "gatsby-source-contentful": "^2.0.71",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
+    "typescript": "^3.5.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "gatsby-cli": "^2.6.7",
+    "prettier": "^1.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivoilic/gatsby-contentful-gitlab-starter"
+  }
+}

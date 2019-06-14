@@ -1,0 +1,14 @@
+version: '2'
+services:
+  gatsby:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.gatsby
+    ports:
+      - 5000:5000
+    volumes:
+      - ./:/app
+      - /app/node_modules
+      - /app/public
+      - /app/.cache
+    command: /bin/bash -c "npm install && npm run develop"

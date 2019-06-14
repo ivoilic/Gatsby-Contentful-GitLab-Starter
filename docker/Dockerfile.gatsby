@@ -1,0 +1,18 @@
+FROM node:11-stretch
+
+RUN apt-get update -qq && apt-get install -y build-essential -y libgl1-mesa-glx
+
+RUN mkdir /app
+WORKDIR /app
+
+ADD src /app
+ADD static /app
+ADD .env /app
+ADD gatsby-browser.js /app
+ADD gatsby-config.js /app
+ADD gatsby-node.js /app
+ADD package.json /app
+
+RUN npm install
+
+EXPOSE 5000
