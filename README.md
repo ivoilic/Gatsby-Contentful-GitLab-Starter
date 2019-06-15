@@ -23,7 +23,7 @@ Roll out a static site quickly and cheaply.
 ## Deploying
 To deploy the site simple commit to the master branch of your GitLab repo. If you'd rather it deploy using another branch change the last line of the `.gitlab-ci.yml` file.
 
-This project is setup assuming you want this to be your root GitLab page. (Your repo name is the same as your username.) If that is not the case you'll need to modify two files:
+This project is setup assuming you want this to be your root GitLab page. (Your repo name is `username`.gitlab.io) If that is not the case you'll need to modify two files:
 
 1. `gatsby-config.js` add this to your `module.exports`: ```pathPrefix: `/example-repo-name` ```
 2. `.gitlab-ci.yml` add ```--prefix-paths``` after `npm run-script build`
