@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "develop": "gatsby develop -H 0.0.0.0",
+    "develop": "gatsby develop -H 0.0.0.0 -p 5000",
     "build": "gatsby build",
     "start": "gatsby serve"
   },
